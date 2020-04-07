@@ -1,0 +1,35 @@
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Personal Details:-",
+            "horizontalAlignment": "Left",
+            "size": "Medium",
+            "weight": "Bolder"
+        },
+        {
+            "type": "FactSet",
+            "facts": [
+                {
+                    "title": "Name:",
+                    "value": "Sakshi"
+                },
+                {
+                    "title": "Phone no.:",
+                    "value": "9898767622"
+                },
+                {
+                    "title": "E-mail ID:",
+                    "value": "abc@gmail.com"
+                },
+                {
+                    "title": "Age:",
+                    "value": "20"
+                }
+            ]
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json"
+}
